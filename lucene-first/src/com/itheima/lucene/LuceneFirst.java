@@ -7,6 +7,7 @@ import org.apache.lucene.analysis.standard.StandardAnalyzer;
 import org.apache.lucene.analysis.tokenattributes.CharTermAttribute;
 import org.apache.lucene.document.*;
 import org.apache.lucene.index.*;
+import org.apache.lucene.queryparser.classic.QueryParser;
 import org.apache.lucene.search.*;
 import org.apache.lucene.store.Directory;
 import org.apache.lucene.store.FSDirectory;
@@ -118,4 +119,6 @@ public class LuceneFirst {
         //6.关闭tokenStream对象
         tokenStream.close();
     }
+
+
 }
